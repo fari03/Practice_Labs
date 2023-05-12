@@ -1,0 +1,22 @@
+lines = []
+
+# Read lines of input from the user
+while True:
+    line = input()
+    if line == "":
+        break
+    lines.append(line)
+
+# Convert lines to lower case and print them
+for line in lines:
+    print(line.lower())
+    
+ # Input
+ Hello, world!
+This is a TEST.
+Type something here.
+
+#Output
+hello, world!
+this is a test.
+type something here.
